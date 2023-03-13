@@ -1,0 +1,115 @@
+body {
+    font-family: Open Sans, sans-serif;
+}
+header {
+    height: 150px;
+    border-bottom: solid;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+}
+section {
+    margin: 20px auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+.card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    vertical-align: top;
+    max-height: 100%;
+} 
+.card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+} 
+.card details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+} 
+.card details summary {
+    font-size: 18px;
+    padding: 10px;
+} 
+.card details p {
+    padding: 0 10px;
+}
+.card details blockquote {
+    color: #777;
+    font-style: italic;
+}
+.bMulheresNegras {
+    margin: 10% 40%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 105px 100px 110px 0px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  button:hover {
+    padding: 105px 100px 110px 0px;
+    background-color: transparent;
+    background-image:url('https://site-ada.brunabechlin.repl.co/imagensAda/adaPintura.png');
+  }
+@media (max-width: 768px) {
+    header {
+        margin-bottom: 250px;
+        height: 200px;
+        font-size: 36px;
+        border-bottom: none;
+        color:rgb(76, 40, 15);
+        text-align: center;
+    }
+    body {
+        text-align: center;
+    }
+    .card {
+        display: block;
+        margin: 20px 10px;
+        border:none;
+    }
+    .card img {
+        width: 80%;
+        height: 80%;
+        border-radius: 1000px;
+        margin-left: 10%;
+    }
+    .card details {
+        width: 80%;
+    }
+    .card summary {
+        font-size: 16px;
+        color:rgb(76, 40, 15)
+    }
+    .card p {
+        font-size: 14px;
+        color:rgb(76, 40, 15);
+        text-align: justify;
+    }
+    .card q{
+        text-align: center;
+    }
+    .bMulheresNegras{
+        margin: 0 90px 0 90px;
+        padding: 140px 160px 115px 0px;
+        font-weight: bold;
+        font-style: oblique;
+        text-decoration: underline;
+        border-radius: 1000px;
+    }
+    button:hover{
+        color:gold;
+        border-color: gold;
+        border-width: 3px;
+        border-style: double;
+        font-weight: bold;
+        padding: 140px 160px 115px 0px;
+        background-image:url('https://site-ada.brunabechlin.repl.co/imagensAda/adaPintura.png');
+    }
+}
