@@ -1,5 +1,5 @@
 function wikiMulheresNegras(){
-    window.open("https://site-ada.brunabechlin.repl.co/");
+    window.open("https://brnb.github.io/siteAda/");
 };
 
 var biografias = {
